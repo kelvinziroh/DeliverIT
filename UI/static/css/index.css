@@ -1,4 +1,8 @@
 body {
   text-align: center;
-  background-image: url(../images/tesla-semi-truck-3D-model_D.jpg);
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.4),
+  rgba(0,0,0,0.4)) ,url(../images/tesla-semi-truck-3D-model_D.jpg);
+  background-size: cover;
+  background-position: position;
 }
