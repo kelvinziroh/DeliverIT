@@ -22,6 +22,7 @@ header {
 
 .nav ul li a {
   text-decoration: none;
+  color: #000000;
 }
 
 h1 {
@@ -40,4 +41,19 @@ h1 {
   left: 500px;
   bottom: 60px;
   font-size: 22px;
+}
+
+main {
+  text-align: center;
+}
+
+main a {
+  font-size: 25px;
+  text-decoration: none;
+  border: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  padding: 10px;
+  color: rgb(192,192,192);
+  background-color: #585858;
 }
