@@ -21,6 +21,8 @@ body {
   margin: 0 auto 100px;
   padding: 45px;
   text-align: center;
+  bottom: 130px;
+  left: 220px;
 }
 
 .form input {
@@ -63,4 +65,20 @@ body {
 
 .form .register-form {
   display: none;
+}
+
+h1 {
+  font-family: "Unlock", cursive;
+  letter-spacing: 0.2em;
+  color: rgb(192,192,192);
+  line-height: 1.5;
+  font-size: 40px;
+}
+
+.welcome {
+  position: relative;
+  bottom: 10px;
+  font-size: 18px;
+  font-style: "Oswald", sans-serif;
+  color: white;
 }
