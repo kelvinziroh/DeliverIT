@@ -7,13 +7,37 @@ body {
 }
 
 header {
-  background-color: #C0C0C0;
+  background-color: #585858;
   position: relative;
-  bottom: 21px;
+  bottom: 27px;
+  height: 80px;
 }
 
 .nav ul li{
   text-align: center;
   text-decoration: none;
   display: inline;
+  padding-right: 60px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Unlock", cursive;
+  letter-spacing: 0.2em;
+  color: rgb(192,192,192);
+  line-height: 1.5;
+  font-size: 40px;
+  position: relative;
+  left: 15px;
+  top: 8px;
+}
+
+.nav ul {
+  position: relative;
+  left: 500px;
+  bottom: 60px;
+  font-size: 22px;
 }
