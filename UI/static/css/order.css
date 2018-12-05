@@ -73,4 +73,9 @@ main p {
   font-family: "Anton", sans-serif;
   text-transform: uppercase;
   font-size: 40px;
+  border: 1px;
+  border-style: dotted;
+  margin-top: 0px;
+  letter-spacing: 0.2em;
+  line-height: 60px;
 }
