@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #585858;
+  background-color: #383838;
   position: relative;
   bottom: 27px;
   height: 80px;
@@ -22,6 +22,10 @@ header {
 
 .nav ul li a {
   text-decoration: none;
+  color: #FFFFFF;
+}
+
+.nav ul li a:hover {
   color: #000000;
 }
 
@@ -41,6 +45,7 @@ h1 {
   left: 500px;
   bottom: 60px;
   font-size: 22px;
+  font-family: "Vidaloka", serif;
 }
 
 main {
@@ -57,6 +62,10 @@ main a {
   color: rgb(192,192,192);
   background-color: #585858;
   font-family: "Oswald", sans-serif;
+}
+
+main a:hover {
+  background-color: #FFFFFF;
 }
 
 main p {
