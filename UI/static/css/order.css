@@ -56,4 +56,10 @@ main a {
   padding: 10px;
   color: rgb(192,192,192);
   background-color: #585858;
+  font-family: "Oswald", sans-serif;
+}
+
+main p {
+  font-size: 20px;
+  font-family: "Noto Serif", serif;
 }
