@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link href = "static/css/index.css"
+    rel = "stylesheet" type = "text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Unlock" rel="stylesheet">
+  </head>
+  <body>
+    <div class = "site_name">
+      <h1>DeliverIT</h1>
+    </div>
+    <div class = "welcome">
+      <p>Welcome to DeliverIT! Your Delivery wish is our command!</p>
+    </div>
+    <div class = "login-page">
+      <div class="form">
+        <form class = "login-form">
+          <input type = "text" placeholder="Email Address"/>
+          <input type = "password" placeholder="Password"/>
+          <button>Log in</button>
+          <p class = "message">Not registered? <a href ="#">Register</a></p>
+        </form>
+        <form class = "register-form">
+          <input type ="text" placeholder="Email Address"/>
+          <input type ="text" placeholder="Username"/>
+          <input type ="text" placeholder="Password"/>
+          <button>Register</button>
+          <p class = "message">Already Registered? <a href="#">Log in</a></p>
+        </form>
+      </div>
+    </div>
+    <script src = 'https://code.jquery.com/jquery-3.3.1.min.js'></script>
+    <script>
+      $('.message a').click(function(){
+      $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+    });
+    </script>
+  </body>
+</html>
