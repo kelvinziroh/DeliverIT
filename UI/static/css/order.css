@@ -66,15 +66,13 @@ main p {
 
 .content {
   position: relative;
-  top: 150px;
+  bottom: 170px;
 }
 
 .welcome h2 {
   font-family: "Anton", sans-serif;
   text-transform: uppercase;
   font-size: 40px;
-  border: 1px;
-  border-style: dotted;
   margin-top: 0px;
   letter-spacing: 0.2em;
   line-height: 60px;
@@ -83,4 +81,55 @@ main p {
 img {
   height: 190px;
   width: 200px;
+}
+
+.welcome p {
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+.first .second {
+  display: inline-block;
+}
+
+.first p {
+  width: 470px;
+  height: 190px;
+  position: relative;
+  left: 70px;
+  padding-top: 5px;
+  color: rgb(192,192,192);
+  background-color: #585858;
+}
+
+.second p {
+  width: 470px;
+  height: 190px;
+  position: relative;
+  left: 890px;
+  padding-top: 35px;
+  color: rgb(192,192,192);
+  background-color: #585858;
+}
+
+.first img {
+  position: relative;
+  bottom: 210px;
+  left: 100px;
+}
+
+.second img {
+  position: relative;
+  bottom: 200px;
+  right: 100px;
+}
+
+.first {
+  position: relative;
+  top: 40px;
+}
+
+.second {
+  position: relative;
+  bottom: 50px;
 }
