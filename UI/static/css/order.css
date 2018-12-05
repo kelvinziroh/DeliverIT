@@ -79,3 +79,8 @@ main p {
   letter-spacing: 0.2em;
   line-height: 60px;
 }
+
+img {
+  height: 190px;
+  width: 200px;
+}
