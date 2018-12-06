@@ -74,14 +74,25 @@ footer {
   height: 152px
 }
 
-.form {
+.order-form {
   position: relative;
   z-index: 1;
   background: rgba(169,169,169, 0);
-  max-width: 360px;
+  width: 500px;
   margin: 0 auto 100px;
   padding: 45px;
   text-align: center;
-  bottom: 130px;
-  left: 220px;
+  top:30px ;
+  right: 290px;
+  /*border: 1px;
+  border-style: dotted;*/
+}
+
+.order-form input {
+  display: block;
+  padding: 10px;
+  width: 400px;
+  margin-bottom: 10px;
+  border-radius: 17px;
+  border-width: 1px;
 }
