@@ -107,6 +107,10 @@ footer {
   font-family: geneva;
 }
 
+.order-form button:hover {
+  background-color: #ffffff;
+}
+
 .order-form .message {
   font-family: geneva;
 }
