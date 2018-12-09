@@ -122,3 +122,12 @@ footer {
 .order-form .message a:hover {
   color: #C0C0C0;
 }
+
+.activity {
+  position: relative;
+  left: 50px;
+}
+
+.activity p {
+  font-family: geneva;
+}
