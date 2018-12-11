@@ -71,56 +71,9 @@ h1 {
 
 footer {
   background-color: black;
-  height: 152px
-}
-
-.order-form {
+  height: 152px;
   position: relative;
-  z-index: 1;
-  background: rgba(169,169,169, 0);
-  width: 500px;
-  margin: 0 auto 100px;
-  padding: 45px;
-  text-align: center;
-  top:30px ;
-  right: 290px;
-  /*border: 1px;
-  border-style: dotted;*/
-}
-
-.order-form input {
-  display: block;
-  padding: 10px;
-  width: 400px;
-  margin-bottom: 10px;
-  border-radius: 17px;
-  border-width: 1px;
-  font-size: 13px;
-  background-color: #C0C0C0;
-  font-family: geneva;
-}
-
-.order-form button {
-  padding: 8px;
-  border-radius: 17px;
-  background-color: #A9A9A9;
-  font-family: geneva;
-}
-
-.order-form button:hover {
-  background-color: #ffffff;
-}
-
-.order-form .message {
-  font-family: geneva;
-}
-
-.order-form .message a {
-  color: #A9A9A9;
-}
-
-.order-form .message a:hover {
-  color: #C0C0C0;
+  top: 275px;
 }
 
 .activity {
