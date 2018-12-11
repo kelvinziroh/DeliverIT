@@ -84,3 +84,13 @@ footer {
 .activity p {
   font-family: geneva;
 }
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+td button {
+  padding: 5px;
+  border-radius: 13px;
+}
