@@ -131,3 +131,12 @@ footer {
 .activity p {
   font-family: geneva;
 }
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #D3D3D3;
+}
